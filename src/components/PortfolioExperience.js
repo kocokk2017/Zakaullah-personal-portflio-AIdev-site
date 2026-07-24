@@ -107,7 +107,7 @@ class PortfolioExperience extends HTMLElement {
               <div class="exp-details-content">
                 <h4 class="exp-role-title">Expert Web Developer & AI Solutions Engineer | Fiverr Top-Rated Seller</h4>
                 <ul class="exp-bullets-list">
-                  <li>Ranked as a top-performing developer on Fiverr, completing 800+ successful projects in custom development, WordPress, Next.js, and Astro.</li>
+                  <li>Ranked as a top-performing developer on Fiverr, completing 250+ successful projects in custom development, WordPress, Next.js, and Astro.</li>
                   <li>Engineered premium custom themes, templates, and plugins using WordPress page-builders (Divi, Elementor, Kadence, and Gutenberg blocks).</li>
                   <li>Pioneered AI-assisted web engineering workflows to generate layouts, write error-free logic, and optimize images, delivering a 10x multiplier in output speed.</li>
                   <li>Maintained a 99% client satisfaction rate, with a heavy focus on speed, performance optimization, and custom e-commerce functionality.</li>
