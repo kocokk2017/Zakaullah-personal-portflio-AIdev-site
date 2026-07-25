@@ -44,7 +44,7 @@ class PortfolioContact extends HTMLElement {
             <div class="social-links-container">
               <span class="social-label">Follow / Connect:</span>
               <div class="social-links">
-                <a href="https://github.com/kocokk2017/explore-pakistan-spark" target="_blank" rel="noopener noreferrer" class="social-link-item">GitHub</a>
+                <a href="https://github.com/kocokk2017" target="_blank" rel="noopener noreferrer" class="social-link-item">GitHub</a>
                 <a href="https://www.linkedin.com/in/muhammad-zakaullah-545ab450/" target="_blank" rel="noopener noreferrer" class="social-link-item">LinkedIn</a>
                 <a href="https://figma.com" target="_blank" rel="noopener noreferrer" class="social-link-item">Figma</a>
                 <a href="https://www.fiverr.com/s/kLdx1jk" target="_blank" rel="noopener noreferrer" class="social-link-item">Fiverr</a>
@@ -132,7 +132,7 @@ class PortfolioContact extends HTMLElement {
     const form = this.querySelector('#portfolio-contact-form');
     const successPanel = this.querySelector('#contact-success-panel');
     const resetBtn = this.querySelector('#reset-form-btn');
-    
+
     if (!form) return;
 
     form.addEventListener('submit', (e) => {
