@@ -111,7 +111,7 @@ class PortfolioProjects extends HTMLElement {
                 <span class="project-num">03</span>
                 <span class="project-client">Luxury Brand</span>
               </div>
-              <h3 class="project-card-title">Zenith - Custom WooCommerce Store</h3>
+              <h3 class="project-card-title">Jewlr - Custom WooCommerce Store</h3>
               <p class="project-card-desc">
                 A gorgeous, conversion-focused WooCommerce storefront featuring custom Gutenberg elements, Divi builder personalization, and speed-optimized product indexing.
               </p>
@@ -123,6 +123,90 @@ class PortfolioProjects extends HTMLElement {
                 <span class="project-pill">Speed Audit</span>
               </div>
               
+              <div class="project-footer">
+                <a href="https://jewlr.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-action-link">
+                  <span>View Details</span>
+                  <svg class="project-arrow-diag" viewBox="0 0 24 24">
+                    <path d="M5 19L19 5M19 5H9M19 5V15"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Project 4: AI Knowledge Assistant -->
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="/images/project_llm.png" alt="AI Knowledge Assistant" class="project-img" loading="lazy" />
+              <div class="project-image-overlay"></div>
+            </div>
+
+            <div class="project-info">
+              <div class="project-info-top">
+                <span class="project-num">04</span>
+                <span class="project-client">AI SaaS</span>
+              </div>
+
+              <h3 class="project-card-title">
+                AI Knowledge Assistant (LLM + RAG)
+              </h3>
+
+              <p class="project-card-desc">
+                Developed an intelligent AI assistant capable of answering business-specific questions using Retrieval-Augmented Generation (RAG). Integrated custom knowledge bases, semantic search, and modern LLMs for highly accurate responses with contextual memory.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="project-pill">LLMs</span>
+                <span class="project-pill">RAG</span>
+                <span class="project-pill">Vector Database</span>
+                <span class="project-pill">OpenAI</span>
+              </div>
+
+              <div class="project-footer">
+                <a href="#contact" class="project-action-link">
+                  <span>View Details</span>
+                  <svg class="project-arrow-diag" viewBox="0 0 24 24">
+                    <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 5: n8n Automation Platform -->
+          <div class="project-card">
+            <div class="project-image-container">
+              <img src="/images/project_n8n.png" alt="Business Automation Platform" class="project-img" loading="lazy" />
+              <div class="project-image-overlay"></div>
+            </div>
+
+            <div class="project-info">
+              <div class="project-info-top">
+                <span class="project-num">05</span>
+                <span class="project-client">Business Automation</span>
+              </div>
+
+              <h3 class="project-card-title">
+                AI Workflow Automation with n8n
+              </h3>
+
+              <p class="project-card-desc">
+                Designed end-to-end workflow automations connecting websites, CRMs, Gmail, Slack, Google Sheets, APIs, and AI models. Automated lead qualification, email follow-ups, notifications, document processing, and customer support to reduce manual work.
+              </p>
+
+              <div class="project-tech-pills">
+                <span class="project-pill">n8n</span>
+                <span class="project-pill">AI Agents</span>
+                <span class="project-pill">REST APIs</span>
+                <span class="project-pill">Automation</span>
+              </div>
+
               <div class="project-footer">
                 <a href="#contact" class="project-action-link">
                   <span>View Details</span>
