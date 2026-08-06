@@ -8,6 +8,7 @@ import './components/PortfolioServices.js';
 import './components/PortfolioTech.js';
 import './components/PortfolioTestimonials.js';
 import './components/PortfolioContact.js';
+import { injectSpeedInsights } from '@vercel/speed-insights';
 
 // Apply saved theme or system preference before rendering fully
 const applyInitialTheme = () => {
@@ -33,3 +34,6 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e)
     }
   }
 });
+
+// Initialize Vercel Speed Insights
+injectSpeedInsights();
