@@ -8,6 +8,7 @@ import './components/PortfolioServices.js';
 import './components/PortfolioTech.js';
 import './components/PortfolioTestimonials.js';
 import './components/PortfolioContact.js';
+import { inject } from '@vercel/analytics';
 
 // Apply saved theme or system preference before rendering fully
 const applyInitialTheme = () => {
@@ -33,3 +34,6 @@ window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', (e)
     }
   }
 });
+
+// Initialize Vercel Web Analytics
+inject();
