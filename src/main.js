@@ -5,8 +5,10 @@ import './components/PortfolioAbout.js';
 import './components/PortfolioExperience.js';
 import './components/PortfolioProjects.js';
 import './components/PortfolioServices.js';
+import './components/PortfolioProcess.js';
 import './components/PortfolioTech.js';
 import './components/PortfolioTestimonials.js';
+import './components/PortfolioFaq.js';
 import './components/PortfolioContact.js';
 
 // Apply saved theme or system preference before rendering fully

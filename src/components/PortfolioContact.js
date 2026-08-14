@@ -12,21 +12,40 @@ class PortfolioContact extends HTMLElement {
   render() {
     this.innerHTML = `
       <section id="contact" class="contact-section-container">
+        <!-- Call to Action conversion box -->
+        <div class="contact-cta-conversion animate-fade-in-up">
+          <h2 class="contact-cta-tagline">Your next website shouldn't just look good.<br/>It should work for your business.</h2>
+          <p class="contact-cta-desc">
+            Whether you need a new high-speed website, a custom redesign, an AI-powered portal, a full-stack application, or immediate help fixing a broken site — let's start a conversation.
+          </p>
+          <div class="contact-cta-buttons">
+            <a href="https://wa.me/923151800869?text=Hi%20ZakaUllah,%20I'd%20like%20to%20discuss%20a%20project%20with%20you%20right%20away." 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="btn-primary-cta whatsapp-big-cta">
+              <span>Start a Conversation on WhatsApp</span>
+              <svg class="cta-arrow-icon" viewBox="0 0 24 24">
+                <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+
         <div class="contact-grid">
           <!-- Left Panel: Copy & Info -->
           <div class="contact-left animate-fade-in-up">
             <div class="header-indicator">
               <span class="pink-dot"></span>
-              <span class="indicator-label">Get in Touch</span>
+              <span class="indicator-label">Send a Message</span>
             </div>
-            <h2 class="contact-title">Ready to Build<br/>Something Exceptional?</h2>
+            <h2 class="contact-title">Prefer Email? <br/>Drop me a line</h2>
             <p class="contact-desc">
-              Whether you need a custom website, a powerful WordPress solution, or an AI-enhanced web application, let's turn your vision into a fast, modern, and scalable digital experience.
+              Fill out the project details form, or copy my email address to contact me directly. I will get back to you within 24 hours.
             </p>
             
             <div class="contact-methods">
               <div class="email-copy-box">
-                <span class="email-label">Drop an email:</span>
+                <span class="email-label">Copy email address:</span>
                 <div class="email-input-group">
                   <span class="email-text" id="email-address">hello@zakaullah.dev</span>
                   <button id="copy-email-btn" class="copy-btn" aria-label="Copy email address" title="Copy Email">
@@ -42,11 +61,10 @@ class PortfolioContact extends HTMLElement {
 
             <!-- Social Links -->
             <div class="social-links-container">
-              <span class="social-label">Follow / Connect:</span>
+              <span class="social-label">Find me on:</span>
               <div class="social-links">
                 <a href="https://github.com/kocokk2017" target="_blank" rel="noopener noreferrer" class="social-link-item">GitHub</a>
                 <a href="https://www.linkedin.com/in/muhammad-zakaullah-545ab450/" target="_blank" rel="noopener noreferrer" class="social-link-item">LinkedIn</a>
-                <a href="https://figma.com" target="_blank" rel="noopener noreferrer" class="social-link-item">Figma</a>
                 <a href="https://www.fiverr.com/s/kLdx1jk" target="_blank" rel="noopener noreferrer" class="social-link-item">Fiverr</a>
               </div>
             </div>
@@ -71,10 +89,11 @@ class PortfolioContact extends HTMLElement {
               <div class="form-group">
                 <select id="project-type" name="projectType" required>
                   <option value="" disabled selected hidden></option>
-                  <option value="nextjs">Next.js Development</option>
-                  <option value="uiux">UI/UX & Figma Design</option>
-                  <option value="performance">Speed / SEO Optimization</option>
-                  <option value="full-project">Full Product Design & Code</option>
+                  <option value="wordpress">WordPress & WooCommerce</option>
+                  <option value="nextjs">Next.js & AI Web App</option>
+                  <option value="redesign">Website Redesign</option>
+                  <option value="optimization">Speed & Performance</option>
+                  <option value="troubleshoot">Bug Fixes & Troubleshooting</option>
                 </select>
                 <label for="project-type" class="select-label">Project Type</label>
                 <span class="form-error-msg">Please select an option</span>
@@ -112,10 +131,49 @@ class PortfolioContact extends HTMLElement {
 
         <!-- Footer Area -->
         <footer class="footer-container">
-          <div class="footer-left">
-            <span class="footer-copyright">© 2026 M. Zakaullah. All rights reserved.</span>
+          <div class="footer-top-grid">
+            <div class="footer-brand-col">
+              <span class="footer-brand-title">M. Zakaullah</span>
+              <p class="footer-brand-text">
+                Senior Web Developer & AI Solutions Engineer. Specialized in building premium Next.js applications, high-converting WooCommerce storefronts, and automated business workflows.
+              </p>
+            </div>
+            
+            <div class="footer-links-col">
+              <span class="footer-col-title">Navigation</span>
+              <ul class="footer-links-list">
+                <li><a href="#about" class="footer-link">About</a></li>
+                <li><a href="#services" class="footer-link">Services</a></li>
+                <li><a href="#portfolio" class="footer-link">Work</a></li>
+                <li><a href="#process" class="footer-link">Process</a></li>
+                <li><a href="#faq" class="footer-link">FAQ</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-links-col">
+              <span class="footer-col-title">Services</span>
+              <ul class="footer-links-list">
+                <li><a href="#services" class="footer-link">AI & Modern Web Dev</a></li>
+                <li><a href="#services" class="footer-link">WordPress Solutions</a></li>
+                <li><a href="#services" class="footer-link">Full-Stack Dev</a></li>
+                <li><a href="#services" class="footer-link">Website Redesign</a></li>
+                <li><a href="#services" class="footer-link">Bug Fixes</a></li>
+                <li><a href="#services" class="footer-link">Performance Speed</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-links-col">
+              <span class="footer-col-title">Contact</span>
+              <ul class="footer-links-list">
+                <li>Email: hello@zakaullah.dev</li>
+                <li>WhatsApp: +92 315 1800869</li>
+                <li><a href="https://www.fiverr.com/s/kLdx1jk" target="_blank" rel="noopener noreferrer" class="footer-link">Hire on Fiverr</a></li>
+              </ul>
+            </div>
           </div>
-          <div class="footer-right">
+
+          <div class="footer-bottom">
+            <span class="footer-copyright">© 2026 M. Zakaullah. All rights reserved. All projects built remotely worldwide.</span>
             <a href="#" class="scroll-to-top-btn" aria-label="Scroll to top">
               <span>Back to Top</span>
               <svg class="top-arrow-icon" viewBox="0 0 24 24">

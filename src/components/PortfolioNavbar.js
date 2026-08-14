@@ -17,7 +17,7 @@ class PortfolioNavbar extends HTMLElement {
         <div class="navbar-left">
           <a href="#" class="brand-link">
             <div class="avatar-wrapper">
-              <img src="/images/avatar.png" alt="M. Zakaullah Avatar" class="navbar-avatar" />
+              <img src="/images/avatar.webp" alt="M. Zakaullah Avatar" class="navbar-avatar" />
             </div>
             <span class="brand-name">M.Zakaullah</span>
           </a>
@@ -25,11 +25,11 @@ class PortfolioNavbar extends HTMLElement {
         
         <nav class="navbar-center">
           <ul class="nav-links">
-            <li><a href="#about" class="nav-link hover-underline">About Me</a></li>
-            <li><a href="#portfolio" class="nav-link hover-underline">Portfolio</a></li>
-            <li><a href="#experience" class="nav-link hover-underline">Experience</a></li>
+            <li><a href="#about" class="nav-link hover-underline">About</a></li>
             <li><a href="#services" class="nav-link hover-underline">Services</a></li>
-            <li><a href="#testimonials" class="nav-link hover-underline">Testimonials</a></li>
+            <li><a href="#portfolio" class="nav-link hover-underline">Work</a></li>
+            <li><a href="#process" class="nav-link hover-underline">Process</a></li>
+            <li><a href="#faq" class="nav-link hover-underline">FAQ</a></li>
           </ul>
         </nav>
         
@@ -44,8 +44,8 @@ class PortfolioNavbar extends HTMLElement {
             <span class="theme-text">${isDark ? 'Light' : 'Dark'}</span>
           </button>
           
-          <a href="#contact" class="book-call-link">
-            <span>Book a call</span>
+          <a href="https://wa.me/923151800869?text=Hi%20ZakaUllah,%20I%20found%20your%20portfolio%20and%20would%20like%20to%20discuss%20a%20website%20project." target="_blank" rel="noopener noreferrer" class="book-call-link">
+            <span>Start Project</span>
             <svg class="arrow-icon" viewBox="0 0 24 24">
               <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
             </svg>

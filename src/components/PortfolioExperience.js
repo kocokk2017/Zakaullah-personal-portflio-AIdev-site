@@ -24,8 +24,8 @@ class PortfolioExperience extends HTMLElement {
             <p class="experience-header-desc">
               As an experienced custom web developer and AI specialist on Fiverr, I have designed and engineered custom solutions, optimized page load times, and solved complex architectural challenges for clients worldwide.
             </p>
-            <a href="#contact" class="experience-book-call">
-              <span>Book a call</span>
+            <a href="https://wa.me/923151800869?text=Hi%20ZakaUllah,%20I'd%20like%20to%20discuss%20a%20project%20consultation." target="_blank" rel="noopener noreferrer" class="experience-book-call">
+              <span>Start Your Project</span>
               <svg class="arrow-icon" viewBox="0 0 24 24">
                 <path d="M5 19L19 5M19 5H9M19 5V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
               </svg>
